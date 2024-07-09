@@ -1,9 +1,10 @@
 buttons:
-  - text: GitHub
-    url: https://github.com/piazzai/jekyll-nagymaros
+  - text: Program
+    relative_url: program
     disabled: false
-  - text: RubyGem
-    url: https://rubygems.org/gems/jekyll-nagymaros
+  - text: Contributors
+    relative_url: contributors
     disabled: false
-  - text: Disabled
-    disabled: true
+  - text: Tickets
+    url: https://www.eventbrite.com/e/4th-annual-cber-conference-tickets-851540710187
+    disabled: false
