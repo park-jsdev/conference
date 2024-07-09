@@ -67,13 +67,6 @@ layout: default
                                         {% elsif event.slides %}
                                         <a href="{{ event.slides }}" target="_blank">[Slides]</a>
                                         {% endif %}
-                                        {% if event.video.first %}
-                                            {% for video in event.video %}
-                                            <a href="{{ video }}" target="_blank">[Video {{ forloop.index }}]</a>
-                                            {% endfor %}
-                                        {% elsif event.video %}
-                                        <a href="{{ event.video }}" target="_blank">[Video]</a>
-                                        {% endif %}
                                         </p>
                                     </div>
                                 </li>
