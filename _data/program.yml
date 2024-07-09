@@ -7,6 +7,7 @@ legend:
       color: red-6
     - name: Keynote
       color: teal-6
+
 days:
 - name: Thursday, May 23rd
   events:
