@@ -1,11 +1,11 @@
 legend:
   title: Legend
   categories:
-    - name: A category
+    - name: Moderation
       color: blue-6
-    - name: Another category
+    - name: Talk
       color: red-6
-    - name: Yet another category
+    - name: Keynote
       color: teal-6
 days:
 - name: Thursday, May 23rd
@@ -13,10 +13,11 @@ days:
     - time: 08:45 to 09:00
       title: Welcome and Opening Remarks
       subtitle: Subtitle
-      category: A category
+      category: Moderation
     - time: 09:00 to 09:30
       title: How do Crypto Scams Funnel Funds? The Economics of Pig Butchering and Slavery
       paper: https://dx.doi.org/10.2139/ssrn.4742235
+      category: Talk
     - time: 09:30 to 10:00
       title: A Study of the Reliability of Crypto Data Provision
     - time: 11:15 to 11:30
@@ -24,6 +25,7 @@ days:
     - time: 11:30 to 12:30
       title: Keynote Address, Sponsored by Boston University
       video: https://youtu.be/6ZQHHpe0E8Y
+      category: Keynote
     - time: 12:35 to 13:15
       title: 'Ethereum Consensus: Proof-of-Stake, Staking Incentives and Gasper'
     - time: 13:15 to 13:55
