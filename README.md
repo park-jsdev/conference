@@ -13,6 +13,24 @@ See the [demo](https://piazzai.github.io/jekyll-nagymaros/) to find out what the
 
 ![](https://github.com/piazzai/jekyll-nagymaros/blob/master/screenshot.png)
 
+## CBER Committees Workflow
+
+1. Copy names
+2. Regex:
+    - `^(.*)\n(.*)$`
+    - `$1,$2`
+3. Sort alphabetically
+    - Can use this site (mark "Ignore 1st word"): https://wordcounter.net/alphabetize
+    - Double-check people with middle names, multiple affiliations, etc
+4. Add tabs
+5. Regex:
+   - `((?:.*\r?\n){3})`
+   - `<div class="row">\n$1</div>\n<br>\n`
+6. Regex:
+   - `    (.*),(.*)`
+   - `\t<div class="column">\n\t\t$1\n\t\t<br>\n\t\t<span class="affiliation">\n\t\t\t$2\n\t\t</span>\n\t</div>`
+
+
 ## Installation
 
 The theme can be installed as usual by cloning this repository and editing the files. However, it is far more convenient to install it as a gem, in which case all the files you do not want or need to customize remain hidden from view, but will still be read and processed during build.
