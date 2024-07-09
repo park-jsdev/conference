@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 # gemspec
-gem "jekyll-nagymaros"
+gem 'jekyll-nagymaros', '~> 2.2'
