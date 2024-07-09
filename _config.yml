@@ -3,7 +3,7 @@ description: Jekyll theme for a conference website
 baseurl: ""
 url: https://cber-forum.github.io/jekyll-nagymaros
 
-# theme: jekyll-nagymaros
+theme: jekyll-nagymaros
 # remote_theme: piazzai/jekyll-nagymaros
 
 copyright: Place Holder
