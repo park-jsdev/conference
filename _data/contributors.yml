@@ -5,20 +5,24 @@ groups:
       - name: Aptenodytes
         surname: Patagonicus
         site: https://king.pengu.in
+        affiliation: Pengu In
       - name: Aptenodytes
         surname: Forsteri
         site: https://emperor.pengu.in
+        affiliation: Pengu In
   - title: Local organizer
     columns: false
     members:
       - name: Pygoscelis
         surname: Papua
         site: https://gentoo.pengu.in
+        affiliation: Pengu In
   - title: Participants
     columns: true
     members:
       - name: Pygoscelis
         surname: Adeliae
+        site: https://humboldt.pengu.in
         affiliation: Pengu In
       - name: Pygoscelis
         surname: Antarcticus
@@ -30,34 +34,13 @@ groups:
         affiliation: Pengu In
       - name: Spheniscus
         surname: Mendiculus
+        site: https://humboldt.pengu.in
+        affiliation: Pengu In
       - name: Spheniscus
         surname: Humboldti
         site: https://humboldt.pengu.in
+        affiliation: Pengu In
       - name: Spheniscus
         surname: Magellanicus
         site: https://magellanic.pengu.in
-      - name: Spheniscus
-        surname: Demersus
-        site: https://african.pengu.in
-      - name: Megadyptes
-        surname: Antipodes
-        site: https://yellow-eyed.pengu.in
-      - name: Eudyptes
-        surname: Chrysolophus
-      - name: Eudyptes
-        surname: Schlegeli
-        site: https://royal.pengu.in
-      - name: Eudyptes
-        surname: Moseleyi
-        site: https://northern-rockhopperi.pengu.in
-      - name: Eudyptes
-        surname: Chrysocome
-        site: https://southern-rockhopper.pengu.in
-      - name: Eudyptes
-        surname: Pachyrhynchus
-        site: https://fiordland.pengu.in
-      - name: Eudyptes
-        surname: Robustus
-        site: https://snares.pengu.in
-      - name: Eudyptes
-        surname: Sclateri
+        affiliation: Pengu In
