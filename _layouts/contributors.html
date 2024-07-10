@@ -35,7 +35,7 @@ layout: default
         {% endif %}
         <div {{ div }}>
             <center>
-                <ul class="list-unstyled" style="text-align: center; display:flex; justify-content: center;">
+                <ul class="list-unstyled" style="text-align: center; justify-content: center;">
                     {% assign members = group.members | sort_natural: 'surname' %}
                     {% for member in members %}
                     {% assign full = member.name | append: ' ' | append: member.surname %}
