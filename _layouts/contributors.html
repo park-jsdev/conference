@@ -5,6 +5,13 @@ layout: default
 {% include metadata.liquid %}
 {% include header.html %}
 
+<style>
+    ul li span {
+        display: table-cell;
+        vertical-align: middle;
+    }
+</style>
+
 <main class="my-4">
     <div class="container">
         <center>
@@ -30,18 +37,20 @@ layout: default
                 {% assign members = group.members | sort_natural: 'surname' %}
                 {% for member in members %}
                 {% assign full = member.name | append: ' ' | append: member.surname %}
-                <li class="fw-light">
-                    {% if member.site %}
-                    <a href="{{ member.site }}">
-                        {% endif %}
-                        {{ full }}
+                <li class="fw-light" style="display: table-row;">
+                    <span>
                         {% if member.site %}
-                    </a>
-                    {% endif %}
-                    {% if member.affiliation %}
-                    </br>
-                    {{ member.affiliation }}
-                    {% endif %}
+                        <a href="{{ member.site }}">
+                            {% endif %}
+                            {{ full }}
+                            {% if member.site %}
+                        </a>
+                        {% endif %}
+                        {% if member.affiliation %}
+                        </br>
+                        {{ member.affiliation }}
+                        {% endif %}
+                    </span>
                 </li>
                 {% endfor %}
             </ul>
