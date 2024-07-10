@@ -30,7 +30,7 @@ layout: default
                 {% assign members = group.members | sort_natural: 'surname' %}
                 {% for member in members %}
                 {% assign full = member.name | append: ' ' | append: member.surname %}
-                <li class="fw-light" style="display: inline-block;">
+                <li class="fw-light">
                     {% if member.site %}
                     <a href="{{ member.site }}">
                         {% endif %}
