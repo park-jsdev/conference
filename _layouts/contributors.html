@@ -34,10 +34,10 @@ layout: default
                     {% if member.site %}
                     <a href="{{ member.site }}">
                         {% endif %}
+                        {{ full }}
                         {% if member.site %}
                     </a>
                     {% endif %}
-                    {{ full }}
                     {% if member.affiliation %}
                     </br>
                     {{ member.affiliation }}

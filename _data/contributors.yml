@@ -4,17 +4,17 @@ groups:
     members:
       - name: Aptenodytes
         surname: Patagonicus
-        site: 'mailto:king@pengu.in'
+        site: king@pengu.in
         affiliation: Pengu In
       - name: Aptenodytes
         surname: Forsteri
-        site: 'mailto:emperor@pengu.in'
+        site: emperor@pengu.in
   - title: Local organizer
     columns: false
     members:
       - name: Pygoscelis
         surname: Papua
-        site: 'mailto:gentoo@pengu.in'
+        site: gentoo@pengu.in
   - title: Participants
     columns: true
     members:
@@ -22,40 +22,40 @@ groups:
         surname: Adeliae
       - name: Pygoscelis
         surname: Antarcticus
-        site: 'mailto:chinstrap@pengu.in'
+        site: chinstrap@pengu.in
       - name: Eudyptula
         surname: Minor
-        site: 'mailto:little@pengu.in'
+        site: little@pengu.in
       - name: Spheniscus
         surname: Mendiculus
       - name: Spheniscus
         surname: Humboldti
-        site: 'mailto:humboldt@pengu.in'
+        site: humboldt@pengu.in
       - name: Spheniscus
         surname: Magellanicus
-        site: 'mailto:magellanic@pengu.in'
+        site: magellanic@pengu.in
       - name: Spheniscus
         surname: Demersus
-        site: 'mailto:african@pengu.in'
+        site: african@pengu.in
       - name: Megadyptes
         surname: Antipodes
-        site: 'mailto:yellow-eyed@pengu.in'
+        site: yellow-eyed@pengu.in
       - name: Eudyptes
         surname: Chrysolophus
       - name: Eudyptes
         surname: Schlegeli
-        site: 'mailto:royal@pengu.in'
+        site: royal@pengu.in
       - name: Eudyptes
         surname: Moseleyi
-        site: 'mailto:northern-rockhopperi@pengu.in'
+        site: northern-rockhopperi@pengu.in
       - name: Eudyptes
         surname: Chrysocome
-        site: 'mailto:southern-rockhopper@pengu.in'
+        site: southern-rockhopper@pengu.in
       - name: Eudyptes
         surname: Pachyrhynchus
-        site: 'mailto:fiordland@pengu.in'
+        site: fiordland@pengu.in
       - name: Eudyptes
         surname: Robustus
-        site: 'mailto:snares@pengu.in'
+        site: snares@pengu.in
       - name: Eudyptes
         surname: Sclateri
