@@ -33,27 +33,29 @@ layout: default
         {% assign div = '' %}
         {% endif %}
         <div {{ div }}>
-            <ul class="list-unstyled" style="text-align: center;">
-                {% assign members = group.members | sort_natural: 'surname' %}
-                {% for member in members %}
-                {% assign full = member.name | append: ' ' | append: member.surname %}
-                <li class="fw-light" style="display: table-row;">
-                    <span>
-                        {% if member.site %}
-                        <a href="{{ member.site }}">
-                            {% endif %}
-                            {{ full }}
+            <center>
+                <ul class="list-unstyled" style="text-align: center;">
+                    {% assign members = group.members | sort_natural: 'surname' %}
+                    {% for member in members %}
+                    {% assign full = member.name | append: ' ' | append: member.surname %}
+                    <li class="fw-light">
+                        <span>
                             {% if member.site %}
-                        </a>
-                        {% endif %}
-                        {% if member.affiliation %}
-                        </br>
-                        {{ member.affiliation }}
-                        {% endif %}
-                    </span>
-                </li>
-                {% endfor %}
-            </ul>
+                            <a href="{{ member.site }}">
+                                {% endif %}
+                                {{ full }}
+                                {% if member.site %}
+                            </a>
+                            {% endif %}
+                            {% if member.affiliation %}
+                            </br>
+                            {{ member.affiliation }}
+                            {% endif %}
+                        </span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </center>
         </div>
         </br>
         {% endfor %}
