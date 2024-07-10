@@ -32,7 +32,7 @@ layout: default
                 {% assign full = member.name | append: ' ' | append: member.surname %}
                 <li class="fw-light">
                     {% if member.site %}
-                    <a href="{{ member.site | absolute_url }}">
+                    <a href="{{ member.site }}">
                         {% endif %}
                         {{ full }}
                         {% if member.site %}
@@ -46,6 +46,7 @@ layout: default
                 {% endfor %}
             </ul>
         </div>
+        </br>
         {% endfor %}
         {% endif %}
     </div>

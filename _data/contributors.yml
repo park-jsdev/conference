@@ -5,7 +5,6 @@ groups:
       - name: Aptenodytes
         surname: Patagonicus
         site: king@pengu.in
-        affiliation: Pengu In
       - name: Aptenodytes
         surname: Forsteri
         site: emperor@pengu.in
@@ -20,12 +19,15 @@ groups:
     members:
       - name: Pygoscelis
         surname: Adeliae
+        affiliation: Pengu In
       - name: Pygoscelis
         surname: Antarcticus
         site: chinstrap@pengu.in
+        affiliation: Pengu In
       - name: Eudyptula
         surname: Minor
         site: little@pengu.in
+        affiliation: Pengu In
       - name: Spheniscus
         surname: Mendiculus
       - name: Spheniscus
