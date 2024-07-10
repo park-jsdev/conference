@@ -10,6 +10,10 @@ groups:
         surname: Forsteri
         site: https://emperor.pengu.in
         affiliation: Some University
+      - name: Aptenodytes
+        surname: Forsteri
+        site: https://emperor.pengu.in
+        affiliation: Some University
   - title: Local organizer
     columns: false
     members:
