@@ -4,16 +4,16 @@ groups:
     members:
       - name: Aptenodytes
         surname: Patagonicus
-        site: king.pengu.in
+        site: https://king.pengu.in
       - name: Aptenodytes
         surname: Forsteri
-        site: emperor.pengu.in
+        site: https://emperor.pengu.in
   - title: Local organizer
     columns: false
     members:
       - name: Pygoscelis
         surname: Papua
-        site: gentoo.pengu.in
+        site: https://gentoo.pengu.in
   - title: Participants
     columns: true
     members:
@@ -22,42 +22,42 @@ groups:
         affiliation: Pengu In
       - name: Pygoscelis
         surname: Antarcticus
-        site: chinstrap.pengu.in
+        site: https://chinstrap.pengu.in
         affiliation: Pengu In
       - name: Eudyptula
         surname: Minor
-        site: little.pengu.in
+        site: https://little.pengu.in
         affiliation: Pengu In
       - name: Spheniscus
         surname: Mendiculus
       - name: Spheniscus
         surname: Humboldti
-        site: humboldt.pengu.in
+        site: https://humboldt.pengu.in
       - name: Spheniscus
         surname: Magellanicus
-        site: magellanic.pengu.in
+        site: https://magellanic.pengu.in
       - name: Spheniscus
         surname: Demersus
-        site: african.pengu.in
+        site: https://african.pengu.in
       - name: Megadyptes
         surname: Antipodes
-        site: yellow-eyed.pengu.in
+        site: https://yellow-eyed.pengu.in
       - name: Eudyptes
         surname: Chrysolophus
       - name: Eudyptes
         surname: Schlegeli
-        site: royal.pengu.in
+        site: https://royal.pengu.in
       - name: Eudyptes
         surname: Moseleyi
-        site: northern-rockhopperi.pengu.in
+        site: https://northern-rockhopperi.pengu.in
       - name: Eudyptes
         surname: Chrysocome
-        site: southern-rockhopper.pengu.in
+        site: https://southern-rockhopper.pengu.in
       - name: Eudyptes
         surname: Pachyrhynchus
-        site: fiordland.pengu.in
+        site: https://fiordland.pengu.in
       - name: Eudyptes
         surname: Robustus
-        site: snares.pengu.in
+        site: https://snares.pengu.in
       - name: Eudyptes
         surname: Sclateri
