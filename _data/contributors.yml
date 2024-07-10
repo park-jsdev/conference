@@ -1,6 +1,6 @@
 groups:
   - title: Scientific committee
-    columns: false
+    columns: true
     members:
       - name: Aptenodytes
         surname: Patagonicus
