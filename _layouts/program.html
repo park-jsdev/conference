@@ -86,22 +86,24 @@ layout: default
                             {% assign size = legend | size %}
                             {% if size > 0 %}
                             <div class="mt-4 mb-2">
-                                {% if site.data.program.legend.title %}
-                                <h5 class="fw-normal">{{ site.data.program.legend.title }}</h5>
-                                {% endif %}
-                                {% for item in legend %}
-                                {% assign border = categories | where: 'name', item | map: 'color' | first %}
-                                {% assign bg = border | split: '-' | first | prepend: 'bg-' | append: '-1' %}
-                                {% assign classes = border | prepend: ' border-' | prepend: bg %}
-                                {% unless forloop.last %}
-                                {% assign classes = classes | append: ' me-lg-2' %}
-                                {% endunless %}
-                                {% if border %}
-                                <small
-                                    class="d-block d-lg-inline-block mt-2 px-3 py-1 border-start border-3 {{ classes }}">{{
-                                    item | upcase }}</small>
-                                {% endif %}
-                                {% endfor %}
+                                <center>
+                                    {% if site.data.program.legend.title %}
+                                    <h5 class="fw-normal">{{ site.data.program.legend.title }}</h5>
+                                    {% endif %}
+                                    {% for item in legend %}
+                                    {% assign border = categories | where: 'name', item | map: 'color' | first %}
+                                    {% assign bg = border | split: '-' | first | prepend: 'bg-' | append: '-1' %}
+                                    {% assign classes = border | prepend: ' border-' | prepend: bg %}
+                                    {% unless forloop.last %}
+                                    {% assign classes = classes | append: ' me-lg-2' %}
+                                    {% endunless %}
+                                    {% if border %}
+                                    <small
+                                        class="d-block d-lg-inline-block mt-2 px-3 py-1 border-start border-3 {{ classes }}">{{
+                                        item | upcase }}</small>
+                                    {% endif %}
+                                    {% endfor %}
+                                </center>
                             </div>
                             {% endif %}
                         </div>
