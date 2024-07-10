@@ -5,42 +5,42 @@ groups:
       - name: Aptenodytes
         surname: Patagonicus
         site: https://king.pengu.in
-        affiliation: Pengu In
+        affiliation: Some University
       - name: Aptenodytes
         surname: Forsteri
         site: https://emperor.pengu.in
-        affiliation: Pengu In
+        affiliation: Some University
   - title: Local organizer
     columns: false
     members:
       - name: Pygoscelis
         surname: Papua
         site: https://gentoo.pengu.in
-        affiliation: Pengu In
+        affiliation: Some University
   - title: Participants
     columns: true
     members:
       - name: Pygoscelis
         surname: Adeliae
         site: https://humboldt.pengu.in
-        affiliation: Pengu In
+        affiliation: Some University
       - name: Pygoscelis
         surname: Antarcticus
         site: https://chinstrap.pengu.in
-        affiliation: Pengu In
+        affiliation: Some University
       - name: Eudyptula
         surname: Minor
         site: https://little.pengu.in
-        affiliation: Pengu In
+        affiliation: Some University
       - name: Spheniscus
         surname: Mendiculus
         site: https://humboldt.pengu.in
-        affiliation: Pengu In
+        affiliation: Some University
       - name: Spheniscus
         surname: Humboldti
         site: https://humboldt.pengu.in
-        affiliation: Pengu In
+        affiliation: Some University
       - name: Spheniscus
         surname: Magellanicus
         site: https://magellanic.pengu.in
-        affiliation: Pengu In
+        affiliation: Some University
