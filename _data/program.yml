@@ -8,9 +8,9 @@ legend:
     - name: Keynote
       color: teal-6
     - name: Panel
-      color: Lime-3
+      color: lime-3
     - name: Award
-      color: Orange-3
+      color: orange-3
 days:
 - name: Workshop Day (Friday, October 25th)
   events:
