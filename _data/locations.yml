@@ -1,10 +1,9 @@
-center: 40.72915, -73.99625
+center: 40.80756798300651, -73.96249759814678
 zoom: 13
 
 markers:
-  - title: NYU Stern School of Business
-    text: Main location of the conference
-    latlng: 40.72915, -73.99625
+  - title: Columbia University
+    latlng: 40.80756798300651, -73.96249759814678
 
 # areas:
 #   - text:

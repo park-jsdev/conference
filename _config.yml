@@ -4,7 +4,6 @@ baseurl: ""
 url: https://cber-forum.github.io/conference2024v2
 
 theme: jekyll-nagymaros
-# remote_theme: piazzai/jekyll-nagymaros
 
 copyright: CBER-Forum
 indexing: true
