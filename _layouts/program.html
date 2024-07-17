@@ -30,26 +30,26 @@ layout: default
                         <div class="accordion-body mt-2">
                             {% assign categories = site.data.program.legend.categories %}
                             <ul class="list-unstyled ms-3 ms-lg-0 lh-sm">
-                                {% for session in day.sessions %}
-                                {% if session.name %}
+                                {% for event in day.events %}
+                                {% if event.session %}
+                                </br>
                                 <center>
-                                    <h3>{{ session.name }}</h3>
+                                    <h4>{{ event.session }}</h4>
                                 </center>
-                                {% endif %}
-                                {% for event in session.events %}
+                                {% else %}
                                 {% if event.category %}
                                 {% assign category = categories | find: 'name', event.category %}
                                 {% assign color = category.color %}
                                 {% else %}
                                 {% assign color = 'gray-4' %}
                                 {% endif %}
-                                {% assign start = event.time | split: ' to ' | slice: 0 %}
-                                {% assign end = event.time | split: ' to ' | slice: 1 %}
                                 <li class="d-flex flex-column flex-lg-row">
                                     {% assign classes = color | prepend: 'border-start border-3 border-' %}
+                                    {% if event.time %}
                                     <div class="row col-lg-2 pb-2 {{ classes }} border-lg-0">
-                                        <small class="fw-light text-muted">{{ start }}–{{ end }}</small>
+                                        <small class="fw-light text-muted">{{ event.time }}</small>
                                     </div>
+                                    {% endif %}
                                     {% unless forloop.last %}
                                     {% assign classes = classes | append: ' mb-4' %}
                                     {% endunless %}
@@ -93,10 +93,10 @@ layout: default
                                         </p>
                                     </div>
                                 </li>
-                                {% endfor %}
+                                {% endif %}
                                 {% endfor %}
                             </ul>
-                            {% assign legend = day.sessions | map: 'category' | compact | uniq %}
+                            {% assign legend = day.events | map: 'category' | compact | uniq %}
                             {% assign size = legend | size %}
                             {% if size > 0 %}
                             <div class="mt-4 mb-2">
