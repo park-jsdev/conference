@@ -59,12 +59,6 @@ layout: default
                                     <div class="row col-lg-10 {{ classes }}">
                                         <h5 class="fw-normal m-0 mb-2">{{ event.title }}</h5>
                                         <p class="fw-light m-0">{{ event.subtitle }}</p>
-                                        {% if event.subsubtitle %}
-                                        <p class="fw-light m-0">
-                                            <small><small>{{ event.subsubtitle }}
-                                                </small></small>
-                                        </p>
-                                        {% endif %}
                                         <p class="fw-light m-0">
                                             {% if event.paper.first %}
                                             {% for paper in event.paper %}
