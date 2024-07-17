@@ -12,9 +12,10 @@ legend:
     - name: Award
       color: orange-3
     - name: 'Session 1: AMMs and Uniswap v4'
+      color: gray-4
     - name: 'Session 2: Maximal Extractable Value'
     - name: 'Session 3: Layer 2s'
-    - name: 'Session 4: RFQs and OFAs'
+    - name: RFQs and OFAs
 days:
 - name: Workshop Day (Friday, October 25th)
   events:
