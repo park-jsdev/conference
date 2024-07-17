@@ -1,6 +1,6 @@
 ---
 layout: contributors
-title: Contributors
-description: List of organizers and participants
+title: Acknowledgements
+description: 
 navorder: 3
 ---
