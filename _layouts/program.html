@@ -34,7 +34,7 @@ layout: default
                                 {% if event.session %}
                                 </br>
                                 <center>
-                                    <h4>{{ event.title }}</h4>
+                                    <h5>{{ event.title }}</h5>
                                     {% if event.subtitle %}
                                     <p class="fw-light m-0">{{ event.subtitle }}</p>
                                     {% endif %}
@@ -60,9 +60,10 @@ layout: default
                                         <h5 class="fw-normal m-0 mb-2">{{ event.title }}</h5>
                                         <p class="fw-light m-0">{{ event.subtitle }}</p>
                                         {% if event.subsubtitle %}
-                                        <small><small>
-                                                <p class="fw-light m-0">{{ event.subsubtitle }}</p>
-                                            </small></small>
+                                        <p class="fw-light m-0">
+                                            <small><small>{{ event.subsubtitle }}
+                                                </small></small>
+                                        </p>
                                         {% endif %}
                                         <p class="fw-light m-0">
                                             {% if event.paper.first %}
