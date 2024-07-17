@@ -13,47 +13,51 @@ legend:
       color: orange-3
 days:
 - name: Workshop Day (Friday, October 25th)
-  events:
-    - time: Time TBD
-      title: Economics of AMMs
-      subtitle: Andreas Park (University of Toronto)
-      subsubtitle: 'Session 1: AMMs and Uniswap v4'
-      category: Talk
-    - time: Time TBD
-      title: Uniswap v4 Overview
-      subtitle: Fahad Saleh (University of Florida)
-      subsubtitle: 'Session 1: AMMs and Uniswap v4'
-      category: Talk
-    - time: Time TBD
-      title: Introduction to Maximal Extractable Value (MEV)
-      subtitle: TBD
-      subsubtitle: 'Session 2: Maximal Extractable Value'
-      category: Talk
-    - time: Time TBD
-      title: MEV Capture Overview
-      subtitle: Julian Ma (Ethereum Foundation)
-      subsubtitle: 'Session 2: Maximal Extractable Value'
-      category: Talk
-    - time: Time TBD
-      title: Introduction to Rollups
-      subtitle: Ed Felten (Offchain Labs)
-      subsubtitle: 'Session 3: Layer 2s'
-      category: Talk
-    - time: Time TBD
-      title: Hook Design for L2 implementations
-      subtitle: TBD
-      subsubtitle: 'Session 3: Layer 2s'
-      category: Talk
-    - time: Time TBD
-      title: RFQs and OFAs in Traditional Markets
-      subtitle: Joel Hasbrouck (NYU Stern)
-      subsubtitle: 'Session 4: RFQs and OFAs'
-      category: Talk
-    - time: Time TBD
-      title: The ecosystem of RFQs and OFAs on blockchain
-      subtitle: Brad Bachu (Uniswap Labs)
-      subsubtitle: 'Session 4: RFQs and OFAs'
-      category: Talk
+  sessions:
+    - name: 'Session 1: AMMs and Uniswap v4'
+      events:
+        - time: Time TBD
+          title: Economics of AMMs
+          subtitle: Andreas Park (University of Toronto)
+          subsubtitle: 'Session 1: AMMs and Uniswap v4'
+          category: Talk
+        - time: Time TBD
+          title: Uniswap v4 Overview
+          subtitle: Fahad Saleh (University of Florida)
+          subsubtitle: 'Session 1: AMMs and Uniswap v4'
+          category: Talk
+    - name: 'Session 2: Maximal Extractable Value'
+      events:
+        - time: Time TBD
+          title: Introduction to Maximal Extractable Value (MEV)
+          subtitle: TBD
+          subsubtitle: 'Session 2: Maximal Extractable Value'
+          category: Talk
+        - time: Time TBD
+          title: MEV Capture Overview
+          subtitle: Julian Ma (Ethereum Foundation)
+          subsubtitle: 'Session 2: Maximal Extractable Value'
+          category: Talk
+        - time: Time TBD
+          title: Introduction to Rollups
+          subtitle: Ed Felten (Offchain Labs)
+          subsubtitle: 'Session 3: Layer 2s'
+          category: Talk
+        - time: Time TBD
+          title: Hook Design for L2 implementations
+          subtitle: TBD
+          subsubtitle: 'Session 3: Layer 2s'
+          category: Talk
+        - time: Time TBD
+          title: RFQs and OFAs in Traditional Markets
+          subtitle: Joel Hasbrouck (NYU Stern)
+          subsubtitle: 'Session 4: RFQs and OFAs'
+          category: Talk
+        - time: Time TBD
+          title: The ecosystem of RFQs and OFAs on blockchain
+          subtitle: Brad Bachu (Uniswap Labs)
+          subsubtitle: 'Session 4: RFQs and OFAs'
+          category: Talk
 - name: Research Day (Saturday, October 26th)
   events:
     - time: Time TBD
