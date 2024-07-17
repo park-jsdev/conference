@@ -12065,4 +12065,8 @@ textarea.form-control-lg {
   }
 }
 
+.svglink:hover {
+  fill: var(--bs-link-hover-color-rgb);
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
