@@ -24,9 +24,9 @@ days:
       subtitle: Fahad Saleh (University of Florida)
       category: Talk
       time: Time TBD
-    - title: 'Session 2: Maximal Extractable Value'
+    - title: 'Session 2: Maximal Extractable Value (MEV)'
       session: true
-    - title: Introduction to Maximal Extractable Value (MEV)
+    - title: Introduction to MEV
       subtitle: TBD
       category: Talk
       time: Time TBD
