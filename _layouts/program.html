@@ -32,10 +32,8 @@ layout: default
                             <ul class="list-unstyled ms-3 ms-lg-0 lh-sm">
                                 {% for event in day.events %}
                                 {% if event.category %}
-                                {% for curcat in event.category %}
-                                {% assign category = categories | find: 'name', curcat %}
+                                {% assign category = categories | find: 'name', event.category %}
                                 {% assign color = category.color %}
-                                {% endfor %}
                                 {% else %}
                                 {% assign color = 'gray-4' %}
                                 {% endif %}
@@ -52,6 +50,11 @@ layout: default
                                     <div class="row col-lg-10 {{ classes }}">
                                         <h5 class="fw-normal m-0 mb-2">{{ event.title }}</h5>
                                         <p class="fw-light m-0">{{ event.subtitle }}</p>
+                                        {% if event.subsubtitle %}
+                                        <small><small></small>
+                                            <p class="fw-light m-0">{{ event.subsubtitle }}</p>
+                                        </small></small>
+                                        {% endif %}
                                         <p class="fw-light m-0">
                                             {% if event.paper.first %}
                                             {% for paper in event.paper %}
