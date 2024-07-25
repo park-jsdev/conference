@@ -5,8 +5,8 @@
                 {% if site.mainurl %}
                 <a href="{{ site.mainurl }}">
                     {% endif %}
-                    {% if site.logoimg %}
-                    {% if site.logoname %} {% assign logoalt = site.logoname %} {%else%} {% assign logoalt = site.title %} {% endif %}
+                    {% if site.logoimg != '' %}
+                    {% if site.logoname %} {% assign logoalt = site.logoname %} {% else %} {% assign logoalt = site.title %} {% endif %}
                     <img src="{{ site.logoimg | prepend: '/assets/images/' | prepend: site.baseurl }}"
                         class="align-middle" alt="{{ logoalt }}" />
                     {% elsif site.logoname %}
