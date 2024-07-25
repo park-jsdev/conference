@@ -4,18 +4,18 @@
             <div class="navbar-brand navbar-logo mr-0 ml-1 overflow-hidden">
                 {% if site.mainurl %}
                 <a href="{{ site.mainurl }}">
-                {% endif %}
+                    {% endif %}
                     {% if site.logo.img %}
                     <img src="{{ site.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}"
                         class="align-middle" alt="{{ site.title }}" />
-                    {% elsif site.logo.text %}
+                    {% elsif site.logo.name %}
                     <div class="align-middle">
-                        {{ site.logo.text }}
+                        {{ site.logo.name }}
                     </div>
                     {% else %}
                     {{ site.title }}
                     {% endif %}
-                {% if site.mainurl %}
+                    {% if site.mainurl %}
                 </a>
                 {% endif %}
             </div>

@@ -1,6 +1,8 @@
 title: CBER Crafting the Cryptoeconomy Conference
 logo:
-  text: CRYPTO AND BLOCKCHAIN ECONOMICS RESEARCH FORUM
+  name: |
+    CRYPTO AND BLOCKCHAIN
+    ECONOMICS RESEARCH FORUM
 img: 'logo.svg'  # inside /assets/images/
 mainurl: 'https://www.cber-forum.org/'
 description: 
