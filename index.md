@@ -5,7 +5,6 @@ indextitle: true
 navorder: 1
 description: |
   Columbia University, New York, NY
-  
   October 25 - 26, 2024
 ---
 

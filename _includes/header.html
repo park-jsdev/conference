@@ -2,18 +2,18 @@
     <div class="container">
         <nav class="navbar navbar-expand-sm">
             <div class="navbar-brand navbar-logo mr-0 ml-1 text-left overflow-hidden">
-                {%- if site.mainurl %}
+                {% if site.mainurl %}
                 <a href="{{ site.mainurl }}">
-                {%- endif %}
-                    {%- if site.logo %}
-                    <img src="{{ site.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}"
+                {% endif %}
+                    {% if site.logo %}
+                    <img src="{{ site.logo | prepend: '/assets/images/' | prepend: site.baseurl }}"
                         class="align-middle" alt="{{ site.title }}" />
-                    {%- else %}
+                    {% else %}
                     {{ site.title }}
-                    {%- endif %}
-                {%- if site.mainurl %}
+                    {% endif %}
+                {% if site.mainurl %}
                 </a>
-                {%- endif %}
+                {% endif %}
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
                 aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
