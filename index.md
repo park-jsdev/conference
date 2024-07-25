@@ -1,8 +1,12 @@
 ---
 layout: index
-title: Main
+title: Home
+navorder: 1
 description: |
   Columbia University, New York, NY
+
+  \n
+  
   October 25 - 26, 2024
 ---
 
