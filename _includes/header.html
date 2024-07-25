@@ -5,9 +5,13 @@
                 {% if site.mainurl %}
                 <a href="{{ site.mainurl }}">
                 {% endif %}
-                    {% if site.logo %}
-                    <img src="{{ site.logo | prepend: '/assets/images/' | prepend: site.baseurl }}"
+                    {% if site.logo.img %}
+                    <img src="{{ site.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}"
                         class="align-middle" alt="{{ site.title }}" />
+                    {% elsif site.logo.text %}
+                    <div class="align-middle">
+                        {{ site.logo.text }}
+                    </div>
                     {% else %}
                     {{ site.title }}
                     {% endif %}
