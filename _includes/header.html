@@ -1,7 +1,7 @@
 <header class="bg-{{ site.data.skin.header.bg | default: 'gray-4' }}">
     <div class="container">
         <nav class="navbar navbar-expand-sm">
-            <div class="navbar-brand navbar-logo mr-0 ml-1 text-left overflow-hidden">
+            <div class="navbar-brand navbar-logo mr-0 ml-1 overflow-hidden">
                 {% if site.mainurl %}
                 <a href="{{ site.mainurl }}">
                 {% endif %}
@@ -20,7 +20,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navigation">
-                <div class="navbar-nav text-right">
+                <div class="navbar-nav" style="margin-left: auto; margin-right: 0;">
                     {% assign links = site.pages | sort: 'navorder' %}
                     {% for link in links %}
                     {% if link.navorder %}
