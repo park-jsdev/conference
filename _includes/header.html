@@ -1,47 +1,41 @@
 <header class="bg-{{ site.data.skin.header.bg | default: 'gray-4' }}">
     <div class="container">
         <nav class="navbar navbar-expand-sm">
-            {% if page.title %}
-            <a class="navbar-brand" href="{{ site.url }}">
-            {% else %}
-            <a class="navbar-brand" href="{{ site.url }}" style="font-weight: bold;">
-            {% endif %}
-            {{ site.title }}
-            </a>
+            <div class="navbar-brand navbar-logo mr-0 ml-1 text-left overflow-hidden">
+                {%- if site.mainurl %}
+                <a href="{{ site.mainurl }}">
+                {%- endif %}
+                    {%- if site.logo %}
+                    <img src="{{ site.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}"
+                        class="align-middle" alt="{{ site.title }}" />
+                    {%- else %}
+                    {{ site.title }}
+                    {%- endif %}
+                {%- if site.mainurl %}
+                </a>
+                {%- endif %}
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
                 aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navigation">
-                <div class="navbar-nav">
+                <div class="navbar-nav text-right">
                     {% assign links = site.pages | sort: 'navorder' %}
                     {% for link in links %}
                     {% if link.navorder %}
                     {% assign href = link.url | prepend: site.url %}
                     {% if page.title == link.title %}
                     <a class="nav-link active" aria-current="page" href="{{ href }}" style="font-weight: bold;">
-                    {% else %}
-                    <a class="nav-link" href="{{ href }}">
-                    {% endif %}
-                    {{ link.title }}
-                    </a>
-                    {% endif %}
-                    {% endfor %}
+                        {% else %}
+                        <a class="nav-link" href="{{ href }}">
+                            {% endif %}
+                            {{ link.title }}
+                        </a>
+                        {% endif %}
+                        {% endfor %}
                 </div>
             </div>
-
-            {%- if site.data.skin.logo %}
-            <div class="navbar-brand navbar-logo mr-0 ml-1 text-right overflow-hidden">
-                <a href="{{ site.data.skin.logo.url }}">
-                {%- if site.data.skin.logo.img %}
-                    <img src="{{ site.data.skin.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle" alt="{{ site.data.skin.logo.name }}" />
-                {%- else %} {%- if site.data.skin.logo.name %}
-                        {{ site.data.skin.logo.name }}
-                    {%- endif %}
-                {%- endif %}
-                </a>
-            </div>
-            {%- endif %}
         </nav>
     </div>
 </header>

@@ -1,4 +1,6 @@
 title: CBER Crafting the Cryptoeconomy Conference
+logo: 'logo.svg'  # inside /assets/images/
+mainurl: 'https://www.cber-forum.org/'
 description: 
 baseurl: ""
 url: https://ctce.cber-forum.org
