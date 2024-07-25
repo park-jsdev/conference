@@ -1,7 +1,6 @@
 title: CBER Crafting the Cryptoeconomy Conference
-logo:
-  img: 'logo.svg'  # inside /assets/images/
-  name: 
+logoimg: 'logo.svg'  # inside /assets/images/
+logoname: ''
 mainurl: 'https://www.cber-forum.org/'
 description: 
 baseurl: ""
