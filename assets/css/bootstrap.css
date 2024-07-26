@@ -4552,7 +4552,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-brand:hover,
-.navbar-brand:focus {
+.navbar-brand:focus-within {
   color: var(--bs-navbar-brand-hover-color);
 }
 
