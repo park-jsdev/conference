@@ -4554,10 +4554,11 @@ fieldset:disabled .btn {
 .navbar-brand:hover,
 .navbar-brand:focus-within {
   color: var(--bs-navbar-active-color);
+  fill: var(--bs-navbar-active-color);
 }
 
 .svg-link:hover {
-  color: var(--bs-navbar-active-color);
+  fill: var(--bs-navbar-active-color);
 }
 
 .navbar-nav {
