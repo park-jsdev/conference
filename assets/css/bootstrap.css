@@ -806,6 +806,10 @@ progress {
   .container {
     max-width: 540px;
   }
+
+  .navbar-toggler-container {
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 768px) {
@@ -814,6 +818,10 @@ progress {
   .container-sm,
   .container {
     max-width: 720px;
+  }
+
+  .navbar-toggler-container {
+    margin-right: 0;
   }
 }
 
