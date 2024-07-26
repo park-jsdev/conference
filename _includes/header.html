@@ -4,7 +4,7 @@
             {% if site.mainurl %}
             <a href="{{ site.mainurl }}">
             {% endif %}
-                <div class="navbar-brand navbar-logo nav-link active align-middle mr-0 ml-1 overflow-hidden; display: table;">
+                <div class="navbar-brand nav-link active align-middle mr-0 ml-1 overflow-hidden; display: table;">
                     {% if site.logoname %} {% assign logoalt = site.logoname %} {% else %} {% assign logoalt = site.title %}{% endif %}
                     {% if site.logoimg != '' %}
                     <img src="{{ site.logoimg | prepend: '/assets/images/' | prepend: site.baseurl }}" alt="{{ logoalt }}" />
