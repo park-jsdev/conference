@@ -4557,10 +4557,6 @@ fieldset:disabled .btn {
   fill: var(--bs-navbar-active-color);
 }
 
-.svg-link:hover {
-  fill: var(--bs-navbar-active-color);
-}
-
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
