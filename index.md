@@ -1,7 +1,6 @@
 ---
 layout: index
 title: Home
-indextitle: true
 navorder: 1
 description: |
   Hosted by Columbia University's Center for Digital Finance and Technologies<br/>
