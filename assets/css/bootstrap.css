@@ -800,15 +800,15 @@ progress {
   margin-left: auto;
 }
 
+.navbar-toggler-container {
+  margin-right: auto;
+}
+
 @media (min-width: 576px) {
 
   .container-sm,
   .container {
     max-width: 540px;
-  }
-
-  .navbar-toggler-container {
-    margin-right: auto;
   }
 }
 
