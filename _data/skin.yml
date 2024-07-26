@@ -16,7 +16,7 @@ btn-secondary:
 digit:
   bg: gray-3            # background of digit on 404 page
 header:
-  bg: gray-4            # background of navigation bar
+  bg: white #gray-4            # background of navigation bar
 index:
   bg: white            # background of index container
 navbar-brand:
