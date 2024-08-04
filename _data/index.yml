@@ -1,4 +1,4 @@
 buttons:
-  - text: Tickets
-    url: https://www.eventbrite.com/e/4th-annual-cber-conference-tickets-851540710187
+  - text: Button
+    url: https://en.wikipedia.org/wiki/Sun_Ra
     disabled: true

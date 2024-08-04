@@ -12,71 +12,37 @@ legend:
     - name: Award
       color: orange-3
 days:
-- name: Workshop Day (Friday, October 25th)
+- name: First Day (Friday, October 25th)
   events:
-    - title: 'Session 1: AMMs and Uniswap v4'
+    - title: Session 1
       session: true
-    - title: Economics of AMMs
-      subtitle: Andreas Park (University of Toronto)
+    - title: The Black Saint and the Sinner Lady
+      subtitle: Charles Mingus (Impulse! Records)
       category: Talk
-      time: Time TBD
-    - title: Uniswap v4 Overview
-      subtitle: Fahad Saleh (University of Florida)
+      time: '10:00 - 11:00'
+    - title: Mu
+      subtitle: Don Cherry (BYG Records)
       category: Talk
-      time: Time TBD
-    - title: 'Session 2: Maximal Extractable Value (MEV)'
+      time: '11:00 - 12:00'
+    - title: 'Session 2'
       session: true
-    - title: Introduction to MEV
-      subtitle: TBD
+    - title: Atlantis
+      subtitle: Sun Ra (Saturn)
       category: Talk
       time: Time TBD
-    - title: MEV Capture Overview
-      subtitle: Julian Ma (Ethereum Foundation)
+    - title: The Shape of Jazz To Come
+      subtitle: Ornette Coleman (Atlantic Records)
       category: Talk
       time: Time TBD
-    - title: 'Session 3: Layer 2s'
+    - title: 'Session 3'
       session: true
-    - title: Introduction to Rollups
-      subtitle: Ed Felten (Offchain Labs)
+    - title: Spiritual Unity
+      subtitle: Albert Ayler (ESP-Disk)
       category: Talk
       time: Time TBD
-    - title: Hook Design for L2 implementations
-      subtitle: TBD
-      category: Talk
-      time: Time TBD
-    - title: 'Session 4: RFQs and OFAs'
-      session: true
-    - title: RFQs and OFAs in Traditional Markets
-      subtitle: Joel Hasbrouck (NYU Stern)
-      category: Talk
-      time: Time TBD
-    - title: The ecosystem of RFQs and OFAs on blockchain
-      subtitle: Brad Bachu (Uniswap Labs)
-      category: Talk
-      time: Time TBD
-- name: Research Day (Saturday, October 26th)
+- name: Second Day (Saturday, October 26th)
   events:
-    - title: Automated Market Makers and the Value of Adaptive Fees
-      subtitle: Brett Falk (University of Pennsylvania)
+    - title: Title
+      subtitle: Albert Einstein (Institute for Advanced Study)
       category: Talk
-      time: Time TBD
-    - title: TBD
-      subtitle: TBD
-      category: Talk
-      time: Time TBD
-    - title: 'Keynote: What the Crypto Community should know about Financial Economics'
-      subtitle: TBD
-      category: Keynote
-      time: Time TBD
-    - title: 'Panel: The Economic Limits of Permissionless Consensus'
-      subtitle: 'Moderator: Hanna Halaburda (NYU Stern), Panelists: Tim Roughgarden (Columbia University), more TBD'
-      category: Panel
-      time: Time TBD
-    - title: 'Panel: Regulation of Decentralized Exchanges'
-      subtitle: 'Moderator: TBD, Panelists: Campbell Harvey (Duke University), more TBD'
-      category: Panel
-      time: Time TBD
-    - title: 'Award: 2nd CBER-Circle Insight Prize Winner Presentation'
-      subtitle: TBD
-      category: Award
-      time: Time TBD
+      time: '10:00 - 11:00'
