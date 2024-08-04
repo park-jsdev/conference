@@ -20,6 +20,9 @@ groups:
       - name: Lee
         surname: Schneider
         affiliation: Ava Labs
+      - name: Aviv
+        surname: Yaish
+        affiliation: Hebrew University
   - title: Advisory Committee
     columns: true
     members:
