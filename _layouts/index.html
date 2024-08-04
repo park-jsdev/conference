@@ -9,8 +9,10 @@ layout: default
 <main class="my-4">
     <div class="container px-5 py-3 bg-{{ index_bg }} rounded">
         <center>
-            <h1 class="display-3">{{ title }}</h1>
-            <p class="lead">{{ description }}</p>
+            <h2 style="font-weight: bold;">
+                {{ site.title }}
+            </h2>
+            <p>{{ description }}</p>
             <hr class="my-4">
             {{ content }}
             {% if site.data.index.buttons %}

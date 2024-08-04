@@ -72,7 +72,7 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: Arial,Helvetica,sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: Arial, Helvetica, sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -800,6 +800,10 @@ progress {
   margin-left: auto;
 }
 
+.navbar-toggler-container {
+  margin-right: auto;
+}
+
 @media (min-width: 576px) {
 
   .container-sm,
@@ -814,6 +818,10 @@ progress {
   .container-sm,
   .container {
     max-width: 720px;
+  }
+
+  .navbar-toggler-container {
+    margin-right: 0;
   }
 }
 
@@ -4552,8 +4560,9 @@ fieldset:disabled .btn {
 }
 
 .navbar-brand:hover,
-.navbar-brand:focus {
-  color: var(--bs-navbar-brand-hover-color);
+.navbar-brand:focus-within {
+  color: var(--bs-navbar-active-color);
+  fill: var(--bs-navbar-active-color);
 }
 
 .navbar-nav {
@@ -13921,10 +13930,6 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
-}
-
-.svg-link:hover {
-  fill: var(--bs-navbar-active-color);
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
