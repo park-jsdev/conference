@@ -1,11 +1,20 @@
-{% (if site.footer and site.footer != '') or (site.copyright and site.copyright != '') %}
+{% if site.footer and site.footer != '' %}
+    {% assign footer = true %}
+{% endif %}
+{% if site.copyright and site.copyright != '' %}
+    {% assign copyright = true %}
+{% endif %}
+{% if copyright or footer %}
 <footer style="position: relative; bottom: 0; margin-top: 5em; margin-bottom: 0em; text-align: center;">
     <nav class="container mb-0" style="border-top: 1px solid black;">
-        {% if site.copyright and site.copyright != '' %}
-            <small class="text-muted">&copy; {{ site.time | date: '%Y' }} {{ site.copyright }}. All rights reserved.</small>
-        {% endif %}
-        {% if site.footer and site.footer != '' %}
+        {% if footer %}
             {{ site.footer }}
+            {% if copyright %}
+                <br/>
+            {% endif %}    
+        {% endif %}
+        {% if copyright %}
+            <small class="text-muted">&copy; {{ site.time | date: '%Y' }} {{ site.copyright }}. All rights reserved.</small>
         {% endif %}
     </nav>
 </footer>
