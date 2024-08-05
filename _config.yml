@@ -7,7 +7,7 @@ description:
 baseurl: ""
 url: https://www.avivyaish.com/jekyll-minimal-conference/
 
-# theme: jekyll-minimal-conference
+theme: jekyll-minimal-conference
 
 copyright: "Copyright text is supported."
 footer: |
