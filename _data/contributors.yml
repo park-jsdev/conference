@@ -2,24 +2,28 @@ groups:
   - title: Organizers
     columns: true
     members:
-      - name: Name
-        surname: Surname
-        affiliation: University
-      - name: Name
-        surname: Surname
-        affiliation: University
-      - name: Name
-        surname: Surname
-        affiliation: University
+      - name: Joanna
+        surname: Newsom
+        affiliation: Ys University
+      - name: Bruce
+        surname: Springstreen
+        affiliation: E Street Band
+      - name: Paul
+        surname: Westerberg
+        affiliation: The Replacements
+      - name: Osvaldo
+        surname: Golijov
+        affiliation: College of the Holy Cross
   - title: Advisory Committee
     columns: true
     members:
-      - name: Name
-        surname: Surname
-        affiliation: University
-      - name: Name
-        surname: Surname
-        affiliation: University
-      - name: Name
-        surname: Surname
-        affiliation: University
+      - name: Roy
+        surname: Montgomery
+        affiliation: Lincoln University, Christchurch
+        site: https://nz.linkedin.com/in/roy-montgomery-5b2a114a
+      - name: Britt
+        surname: Walford
+        affiliation: Unaffiliated
+      - name: Gustav Elijah
+        surname: Åhr
+        affiliation: GothBoiClique

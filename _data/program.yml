@@ -1,15 +1,15 @@
 legend:
   title: Legend
   categories:
-    - name: Moderation
+    - name: Science
       color: red-6
-    - name: Talk
+    - name: Space Music
       color: blue-6
-    - name: Keynote
+    - name: Minimalism
       color: teal-6
-    - name: Panel
+    - name: Free Jazz
       color: lime-3
-    - name: Award
+    - name: Third Stream
       color: orange-3
 days:
 - name: First Day (Friday, October 25th)
@@ -18,31 +18,31 @@ days:
       session: true
     - title: The Black Saint and the Sinner Lady
       subtitle: Charles Mingus (Impulse! Records)
-      category: Talk
+      category: Third Stream
       time: '10:00 - 11:00'
     - title: Mu
       subtitle: Don Cherry (BYG Records)
-      category: Talk
+      category: Minimalism
       time: '11:00 - 12:00'
     - title: 'Session 2'
       session: true
     - title: Atlantis
       subtitle: Sun Ra (Saturn)
-      category: Talk
-      time: Time TBD
+      category: Space Music
+      time: '12:30 - 13:15'
     - title: The Shape of Jazz To Come
       subtitle: Ornette Coleman (Atlantic Records)
-      category: Talk
-      time: Time TBD
+      category: Free Jazz
+      time: '14:00 - 15:00'
     - title: 'Session 3'
       session: true
     - title: Spiritual Unity
       subtitle: Albert Ayler (ESP-Disk)
-      category: Talk
-      time: Time TBD
+      category: Free Jazz
+      time: '18:00 - 19:00'
 - name: Second Day (Saturday, October 26th)
   events:
     - title: Title
       subtitle: Albert Einstein (Institute for Advanced Study)
-      category: Talk
+      category: Science
       time: '10:00 - 11:00'
