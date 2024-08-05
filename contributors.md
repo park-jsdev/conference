@@ -1,6 +1,6 @@
 ---
 layout: contributors
-title: Acknowledgements
+title: Contributors
 description: 
 navorder: 4
 ---
