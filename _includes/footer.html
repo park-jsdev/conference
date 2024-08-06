@@ -8,15 +8,14 @@
 <footer style="position: relative; bottom: 0; margin-top: 5em; margin-bottom: 0em; text-align: center;">
     <nav class="container mb-0" style="border-top: 1px solid black;">
         {% if footer %}
+            <small><br/></small>
             {{ site.footer }}
-            {% endif %}
-            {% if copyright %}
-            <small class="text-muted">
-                {% if footer %}
-                    <small><br/></small>
-                {% endif %}
-                &copy; {{ site.time | date: '%Y' }} {{ site.copyright }}
-            </small>
+        {% endif %}
+        {% if copyright %}
+        <small class="text-muted">
+            <small><br/></small>
+            &copy; {{ site.time | date: '%Y' }} {{ site.copyright }}
+        </small>
         {% endif %}
     </nav>
 </footer>
