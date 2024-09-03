@@ -5,15 +5,27 @@ groups:
       - name: Joanna
         surname: Newsom
         affiliation: Ys University
+        site: https://joannanewsom.bandcamp.com/
+        img: https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Joanna-4_%2823290624640%29_%28cropped%29.jpg/330px-Joanna-4_%2823290624640%29_%28cropped%29.jpg
+        bio: Joanna Newsom (born January 18, 1982) is an American singer-songwriter and actress. Born and raised in Northern California, Newsom was classically trained on the harp in her youth and began her career as a keyboardist in the San Francisco-based indie band the Pleased. Bio and image taken from Wikipedia.
       - name: Bruce
         surname: Springstreen
         affiliation: E Street Band
+        site: http://brucespringsteen.net/
+        img: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Bruce_Springsteen_-_Roskilde_Festival_2012.jpg/330px-Bruce_Springsteen_-_Roskilde_Festival_2012.jpg
+        bio: Bruce Frederick Joseph Springsteen (born September 23, 1949) is an American rock singer, songwriter, and guitarist. Bio and image taken from Wikipedia.
       - name: Paul
         surname: Westerberg
         affiliation: The Replacements
+        site: https://paulwesterberg.net/
+        img: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Paul_Westerberg.jpg/330px-Paul_Westerberg.jpg
+        bio: Paul Harold Westerberg (born December 31, 1959) is an American musician, best known as the lead singer, guitarist, and songwriter for The Replacements. Bio and image taken from Wikipedia.
       - name: Osvaldo
         surname: Golijov
         affiliation: College of the Holy Cross
+        site: https://osvaldogolijov.com/
+        img: https://www.holycross.edu/sites/default/files/files/music/faculty/ogolijov/osvaldo_golijov_portrait_professor_1.jpg
+        bio: "Osvaldo Noé Golijov (Spanish pronunciation: [ɡoli'xof]; born December 5, 1960) is an Argentine composer of classical music and music professor, known for his vocal and orchestral work. Bio taken from Wikipedia, image taken from College of the Holy Cross."
   - title: Advisory Committee
     columns: true
     members:
@@ -21,9 +33,17 @@ groups:
         surname: Montgomery
         affiliation: Lincoln University, Christchurch
         site: https://nz.linkedin.com/in/roy-montgomery-5b2a114a
+        img: https://web.archive.org/web/20110613003429im_/http://www.lincoln.ac.nz/Global/StaffImages/Roy.Montgomery.jpg
+        bio: Roy Montgomery (born 1959) is a composer, guitarist and lecturer from Christchurch, New Zealand. Bio taken from Wikipedia, image taken from an archived version of the Lincoln University web page.
       - name: Britt
         surname: Walford
         affiliation: Unaffiliated
+        site: https://x.com/tbit20
+        img: https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Slint-2_%28cropped%29.jpg/330px-Slint-2_%28cropped%29.jpg
+        bio: Britt Walford (born March 16, 1970) is an American musician best known for being the drummer, co-founder, and occasional guitarist for the post-rock band Slint. Bio and image taken from Wikipedia.
       - name: Gustav Elijah
         surname: Åhr
         affiliation: GothBoiClique
+        site: http://lilpeep.com/
+        img: https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Lil-Peep_PrettyPuke_Photoshoot.png/330px-Lil-Peep_PrettyPuke_Photoshoot.png
+        bio: "Gustav Elijah Åhr (Swedish pronunciation: [ˈoːr]; November 1, 1996 – November 15, 2017), known professionally as Lil Peep, was an American rapper and singer-songwriter. Bio and image taken from Wikipedia."
