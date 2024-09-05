@@ -9,4 +9,4 @@ Check out the [sample site](https://avivyaish.github.io/jekyll-minimal-conferenc
 
 ![image](https://github.com/user-attachments/assets/5d1ce871-f4e8-4eb4-bb49-ab9174c6a6bc)
 
-![image](https://github.com/user-attachments/assets/c0edc4bd-6de8-4923-a1c7-abcb8cc138c8)
+![image](https://github.com/user-attachments/assets/558ce736-a386-4486-a25b-5cdccca6308c)
